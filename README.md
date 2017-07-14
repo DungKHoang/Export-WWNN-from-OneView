@@ -1,7 +1,7 @@
-# Collect wwnn addresses of all components in OneView
+# Collect wwnn addresses of all FC components in OneView
 
 Export-OVwwnn.ps1 is a PowerShell script that collects wwnn address of all FC connections in profileof servers managed by OneView.
-The script queries servers in enclosures only ( C7000 / Synergy)
+The script queries servers in enclosures only ( C7000/Synergy)
 
 ## Prerequisites
 The script leverages the follwoing PowerShell libraries:
